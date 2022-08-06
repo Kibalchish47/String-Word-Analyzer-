@@ -36,6 +36,19 @@ fn main()
         let occurences = filter.find_iter(&sentence).count();
 
         println!("Your word '{word}' has appeared {occurences} times in the sentence !");
+
+        match &word{
+            "fuck"   => println!("Bro ! Not the f-word ! Badmouthing gorilla !"),
+            "bitch"  => println!("Bro ! What da female dog doin !"),
+            "cunt"   => println!("Bruh that's something you'll never touch in your entire life..."),
+            "bread"  => println!("Bread"),
+            "sussy"  => println!("I see you use Reddit..."),
+            "balls"  => println!("You are now officially G-A-Y !"),
+            "penis"  => println!("Penis"),
+            "dick"   => println!("Penis"),
+            "amogus" => println!("Among us sussy balls."),
+            _ => todo!(),
+        }
         println!("");
     }
 }
